@@ -1,6 +1,6 @@
 <h1>Edit a figure</h1>
 <br>
-<form action="/figures" method="post">
+<form action="/figures/<%=@figure.id%>" method="patch">
 
   <label>Name: </label>
   <input type="text" name="figure[name]" id="figure_name">
